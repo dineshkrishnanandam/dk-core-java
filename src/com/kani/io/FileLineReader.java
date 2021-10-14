@@ -1,28 +1,31 @@
 package com.kani.io;
 
+import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class FileStringReader {
+public class FileLineReader {
 
 	public static void main(String[] args) throws IOException {
 
 		FileReader fileReader = new FileReader("E:\\names.txt");
+		BufferedReader bufferedReader = new BufferedReader(fileReader);
+		String line = bufferedReader.readLine();
 
-		int i = fileReader.read();
-		// end of file (eof= -1) 
-		while (i != -1) {
-			char c = (char) i;
+		// int i = fileReader.read();
+		// end of file (eof = -1)
+		while (line != null) {
 
-			System.out.print(c);
+			System.out.println(line);
 
-			i = fileReader.read();
+			line = bufferedReader.readLine();
 		}
+		bufferedReader.close();
 		fileReader.close();
 		System.out.print("I am done Reading");
-		
+
 		// ascii value for carriage return(13) and line feed(10)
-		
+
 //		i = fileReader.read();
 //		System.out.println(i);
 //
@@ -44,5 +47,9 @@ public class FileStringReader {
 		// System.out.println(c);
 
 	}
+	
+	
+	
+	
 
 }
