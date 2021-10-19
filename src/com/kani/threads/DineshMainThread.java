@@ -10,10 +10,10 @@ public class DineshMainThread {
 		DinnerThread dinnerThread = new DinnerThread();
 		LearningJavaThread learningJavaThread = new LearningJavaThread();
 		iplThread.start();
-//		  iplThread.run();
+		//	  iplThread.run();
 		dinnerThread.start();
 
-		learningJavaThread.setPriority(10);
+		learningJavaThread.setPriority(9);
 		learningJavaThread.start();
 
 //		System.out.println("IplThread : " + iplThread.getPriority());
