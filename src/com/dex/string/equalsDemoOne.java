@@ -14,7 +14,6 @@ public class equalsDemoOne {
 		System.out.println(d1.equals(d4));
 		System.out.println(d1.equalsIgnoreCase(d4));
 
-
 	}
 
 }
