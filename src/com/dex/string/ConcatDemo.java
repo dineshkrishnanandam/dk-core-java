@@ -1,6 +1,6 @@
 package com.dex.string;
 
-public class StgConcat {
+public class ConcatDemo {
 
 	public static void main(String[] args) {
 		String firstName = "Dinesh ";

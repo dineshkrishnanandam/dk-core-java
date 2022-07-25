@@ -1,6 +1,6 @@
 package com.dex.string;
 
-public class isEmptyDemoOne {
+public class IsEmptyDemoOne {
 
 	public static void main(String[] args) {
 		String s1 = "";

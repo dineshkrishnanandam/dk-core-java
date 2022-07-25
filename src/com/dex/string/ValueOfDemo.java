@@ -1,6 +1,6 @@
 package com.dex.string;
 
-public class valueOfDemo {
+public class ValueOfDemo {
 
 	public static void main(String[] args) {
 

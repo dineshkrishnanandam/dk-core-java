@@ -1,6 +1,6 @@
 package com.dex.string;
 
-public class equalsDemoOne {
+public class EqualsDemoOne {
 
 	public static void main(String[] args) {
 
