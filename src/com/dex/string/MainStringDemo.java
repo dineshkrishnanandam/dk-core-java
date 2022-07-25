@@ -1,6 +1,6 @@
 package com.dex.string;
 
-public class StringDemo {
+public class MainStringDemo {
 
 	public static void main(String[] args) {
 		String s1 = "Kumaran";

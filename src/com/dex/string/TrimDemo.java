@@ -1,6 +1,6 @@
 package com.dex.string;
 
-public class StgTrim {
+public class TrimDemo {
 
 	public static void main(String[] args) {
 		String myStr = "          hello dk ";

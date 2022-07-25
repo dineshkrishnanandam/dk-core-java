@@ -1,6 +1,6 @@
 package com.dex.string;
 
-public class subStringDemoOne {
+public class SubStringDemoOne {
 
 	public static void main(String[] args) {
 		String d1 = "Dell inspiron is my fav lap ";
