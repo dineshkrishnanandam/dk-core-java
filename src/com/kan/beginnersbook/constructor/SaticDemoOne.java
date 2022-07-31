@@ -1,6 +1,6 @@
 package com.kan.beginnersbook.constructor;
 
-public class JavaExample2 {
+public class SaticDemoOne {
 
 	static int num;
 	static String mystr;

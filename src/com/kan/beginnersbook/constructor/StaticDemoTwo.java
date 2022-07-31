@@ -1,6 +1,6 @@
 package com.kan.beginnersbook.constructor;
 
-public class JavaExample3 {
+public class StaticDemoTwo {
 
 	static int i = 100;
 	static String s = "Beginnersbook";
@@ -22,7 +22,7 @@ public class JavaExample3 {
 
 	// static method
 	public static void main(String args[]) {
-		JavaExample3 obj = new JavaExample3();
+		StaticDemoTwo obj = new StaticDemoTwo();
 		// You need to have object to call this non-static method
 		obj.funcn();
 		System.out.println();
