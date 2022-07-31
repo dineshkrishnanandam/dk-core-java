@@ -1,11 +1,11 @@
 package com.kan.beginnersbook.constructor;
 
-public class Demo {
+public class ConstDemo {
 	int a;
 	int b;
 	int c;
 
-	Demo(int x, int y) {
+	ConstDemo(int x, int y) {
 		this.a = x;
 		this.b = y;
 		this.add();
@@ -27,7 +27,7 @@ public class Demo {
 
 	public static void main(String args[]) {
 		// new Demo();
-		 new Demo(2, 3);
+		 new ConstDemo(2, 3);
 //		obj1.add();
 //		obj1.print();
 

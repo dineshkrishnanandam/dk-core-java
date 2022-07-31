@@ -1,24 +1,24 @@
 package com.kan.beginnersbook.constructor;
 
-public class ParaCon {
+public class ParaConst {
 	int a;
 	String b;
 	double salary;
 
-	ParaCon() {
+	ParaConst() {
 		this.a = -1;
 		this.b = "Kumaran";
 		this.salary = -1000;
 	}
 
-	ParaCon(int id, String name) {
+	ParaConst(int id, String name) {
 		this.a = id;
 		this.b = name;
 		this.salary = -1000;    
 
 	}
 
-	ParaCon(int id, String name, double salary) {
+	ParaConst(int id, String name, double salary) {
 		this.a = id;
 		this.b = name;
 	//this(id, name);
@@ -35,12 +35,12 @@ public class ParaCon {
 	}
 
 	public static void main(String args[]) {
-		ParaCon obj1 = new ParaCon(10245, "Chaitanya");
-		ParaCon obj2 = new ParaCon(92232, "Negan");
-		ParaCon obj3 = new ParaCon();
-		ParaCon obj4 = new ParaCon();
-		ParaCon obj5 = new ParaCon(25636, "gokul", 5000);
-		ParaCon obj6 = new ParaCon(25, "naveen", 6789);
+		ParaConst obj1 = new ParaConst(10245, "Chaitanya");
+		ParaConst obj2 = new ParaConst(92232, "Negan");
+		ParaConst obj3 = new ParaConst();
+		ParaConst obj4 = new ParaConst();
+		ParaConst obj5 = new ParaConst(25636, "gokul", 5000);
+		ParaConst obj6 = new ParaConst(25, "naveen", 6789);
 
 		obj1.info();
 		obj2.info();

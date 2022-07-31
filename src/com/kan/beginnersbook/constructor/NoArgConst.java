@@ -1,13 +1,13 @@
 package com.kan.beginnersbook.constructor;
 
-public class NoArgCon {
+public class NoArgConst {
 	
-	 public  NoArgCon()
+	 public  NoArgConst()
      {
          System.out.println("This is a no argument constructor");
      }
      public static void main(String args[]) {
-    	 new  NoArgCon();
+    	 new  NoArgConst();
      }
 
 }
