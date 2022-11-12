@@ -19,18 +19,32 @@ public class MainStringDemo {
 		sb.append("Jeeva");
 		sb.append("Lakshmi");
 		sb.append("Naveen");
+<<<<<<< Updated upstream
 		System.out.println("StringBuffer = "+sb);
 		System.out.println();
 
 		// All methods in StringBuilder are non-synchronized
+=======
+		System.out.println("StringBuffer = " +sb);
+		
+		// All methods in StringBuilder are non-synchronized 
+>>>>>>> Stashed changes
 		// StringBuilder is preferable Single-Thread
 		StringBuilder sb1 = new StringBuilder();
 		sb1.append("Kumaran");
 		sb1.append("Jeeva");
 		sb1.append("Lakshmi");
 		sb1.append("Naveen");
+<<<<<<< Updated upstream
 		System.out.println("StringBuilder = "+sb1.toString());
 		System.out.println();
+=======
+		System.out.println("StringBuilder = " + sb1.toString());
+		
+		System.out.println("StringBuilder = " +sb1.reverse());
+		
+		System.out.println("StringBuilder = " +sb1.replace(5, 8, " "));
+>>>>>>> Stashed changes
 
 		System.out.println("StringBuilder = "+sb1.reverse());
 		System.out.println();
