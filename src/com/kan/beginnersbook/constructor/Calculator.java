@@ -2,7 +2,7 @@ package com.kan.beginnersbook.constructor;
 
 public class Calculator {
 
-	 static double add(double a, double b) {
+	static double add(double a, double b) {
 
 		return a + b;
 

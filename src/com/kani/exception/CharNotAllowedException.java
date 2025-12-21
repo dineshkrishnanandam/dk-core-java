@@ -14,7 +14,7 @@ public class CharNotAllowedException extends Exception {
 	public static void main(String[] args)
 	{
 		
-		CharNotAllowedException obj1 = new CharNotAllowedException("String or Char Not Allowed");
+		CharNotAllowedException obj1 = new CharNotAllowedException("String  or Char Not Allowed");
 		
 		System.out.println(obj1.getMessage())	;	
 	}
